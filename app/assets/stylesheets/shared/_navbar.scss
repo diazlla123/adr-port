@@ -1,0 +1,23 @@
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #5082b4;
+}
+
+nav div {
+  display: flex;
+  gap: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #f08c69;
+  font-size: 20px;
+}
+
+.image-nav{
+  width: 60px;
+  border-radius: 50%;
+}

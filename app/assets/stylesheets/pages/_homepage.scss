@@ -1,0 +1,111 @@
+//BOTONES MENU
+.menu-home {
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  justify-content: center;
+}
+
+.menu-b {
+  border-radius: 10px;
+  border: 2px solid #f08c69;
+  width: 30%;
+  height: 250px;
+  margin: 1.5rem;
+}
+
+// FORMULARIO
+.form-background {
+  background-color: #e5e5e5;
+  padding: 30px;
+  border-radius: 10px;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.form-background h2 {
+  color: #f08c69;
+  margin-bottom: 20px;
+}
+
+.form-section{
+  width: calc(50%);
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  background-color: #d3d3d3;
+}
+
+input[type="text"],
+input[type="email"] {
+  margin-right: 10px;
+}
+
+textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  margin-top: 10px;
+}
+
+.input-group {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"]:last-child {
+  margin-right: 0;
+}
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.form-group a {
+  color: #f08c69;
+  text-decoration: none;
+}
+
+.form-group a:hover {
+  text-decoration: underline;
+}
+
+
+button[type="submit"] {
+  background-color: #f08c69;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #e07b57;
+}
+
+@media (max-width: 768px) {
+  input[type="text"],
+  input[type="email"] {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+}

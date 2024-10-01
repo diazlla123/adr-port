@@ -1,0 +1,41 @@
+<h1>Eres grande</h1>
+
+<div class="menu-home">
+  <%= link_to "Curriculum", curriculum_path, class: "menu-b" %>
+  <%= link_to "Portfolio", portfolio_path, class: "menu-b" %>
+</div>
+
+<div class="about-menu">
+  <h3>About Me</h3>
+  <p>"Lorem Ipsum" va a dar por resultado muchos sitios web que usan este texto si se encuentran en estado de desarrollo. Muchas versiones han evolucionado a través de los años, algunas veces por accidente, otras veces a propósito (por ejemplo insertándole humor y cosas por el estilo).</p>
+</div>
+
+<div class="form-background">
+  <div class="form-section">
+    <h2>Get in Touch</h2>
+    <form action="/submit_form" method="POST">
+      <div class="input-group form-group">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your full name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your mail">
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="message">Message</label>
+        <textarea id="message" name="message" placeholder="Start typing here..."></textarea>
+      </div>
+
+      <div class="form-group">
+        <input type="checkbox" id="agree" name="agree">
+        <label for="agree">I agree to the <a href="/privacy-policy" target="_blank">privacy policy</a></label>
+      </div>
+
+      <button type="submit">Submit</button>
+    </form>
+  </div>
+</div>

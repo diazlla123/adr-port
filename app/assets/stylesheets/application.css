@@ -13,3 +13,7 @@
  *= require_tree .
  *= require_self
  */
+
+ @import "shared/navbar";
+ @import "pages/homepage";
+ @import "portfolio/portfolio-menu";

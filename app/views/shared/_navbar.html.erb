@@ -1,0 +1,13 @@
+<section class="navbar">
+  <nav>
+    <div class="img-navbar">
+      <%= link_to root_path do %>
+        <%= image_tag("adrlogo.png", class: "image-nav", alt: "Logo") %>
+      <% end %>
+    </div>
+    <div class="menu-navbar">
+      <%= link_to "Curriculum", curriculum_path %>
+      <%= link_to "Portfolio", portfolio_path %>
+    </div>
+  </nav>
+</section>
